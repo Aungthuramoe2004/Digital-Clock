@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background:url("https://www.creativefabrica.com/wp-content/uploads/2021/12/05/Cherry-blossom-with-pink-Sakura-flower-Graphics-21250484-1.jpg") ;
+    background-size: cover;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 38px;
+    text-align: center;
+    background-color: rgba(255, 175, 246,0.4);
+    color: rgb(181, 27, 184);
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 10px;
+    position: relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: rgba(185, 47, 185, 0.127);
+    opacity: 0.8;
+    color: rgb(35, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(90, 205, 32, 0.3);
+
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: palevioletred;
+
+}
+
+.clock #AMPM{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: palevioletred;
+}
+
